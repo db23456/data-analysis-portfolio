@@ -1,1 +1,375 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doina Bocsaneanu| Professional Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+        /* General styling */
+        body {
+            background-color: #e9ecef;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Blue header */
+        .header {
+            background: linear-gradient(135deg, #003566, #0077b6);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* Profile picture */
+        .profile-img {
+            width: 120px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 17px;
+            margin-bottom: 0;
+        }
+
+        /* Main content */
+        .main-content {
+            max-width: 1100px;
+            margin: 35px auto;
+            padding: 0 15px;
+        }
+
+        /* Bootstrap cards */
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card-header {
+            background-color: #005f99;
+            color: white;
+            font-size: 19px;
+            font-weight: bold;
+            border-radius: 12px 12px 0 0 !important;
+            padding: 15px;
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .card-body p {
+            line-height: 1.8;
+        }
+
+        .card-body ul {
+            list-style-position: inside;
+            padding: 0;
+            line-height: 2;
+        }
+
+        /* Skills badges */
+        .skill-badge {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: #005f99;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        /* Social media */
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003566;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px 15px;
+            }
+
+            .header h1 {
+                font-size: 26px;
+            }
+
+            .main-content {
+                margin-top: 20px;
+            }
+
+            .card-body {
+                padding: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 23px;
+            }
+
+            .header p {
+                font-size: 15px;
+            }
+
+            .social-links img {
+                margin: 0 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="me.jpg" alt="Doina's Profile Picture" class="profile-img">
+
+        <h1>Doina Bocsaneanu</h1>
+        <p>Senior Lecturer</p>
+        <p><i>Computer Science Professional</i></p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <div class="row">
+
+            <!-- About Me -->
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        About Me
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            I am <b>Doina Bocsaneanu</b>, a <u>Senior Lecturer</u> at
+                            <b>Doina Bocsaneanu Institution</b>, with a Degree in
+                            Computer Science.
+                        </p>
+
+                        <p>
+                            I specialise in teaching programming and
+                            modern web technologies. My academic interests
+                            include <i>Java Programming, Web Development
+                            and Blockchain Technology</i>.
+                        </p>
+
+                        <p>
+                            I have technical skills in HTML, JavaScript,
+                            PHP, Python, Laravel, Node.js and React.js.
+                            I am committed to delivering quality education
+                            and developing students' technical knowledge
+                            and practical programming skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Information -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        Personal Information
+                    </div>
+
+                    <div class="card-body">
+                        <p><b>Name:</b> Doina Bocsaneanu</p>
+                        <p><b>Occupation:</b> Senior Lecturer</p>
+                        <p><b>Institution:</b> Doina Bocsaneanu</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qualification -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        Academic Qualification
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            <b>Qualification:</b>
+                        </p>
+
+                        <p>
+                            <u>Degree in Computer Science</u>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subjects Taught -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        Subjects Taught
+                    </div>
+
+                    <div class="card-body">
+                        <ul>
+                            <li>Java Programming <i>(2020)</i></li>
+                            <li>Web Development <i>(2021)</i></li>
+                            <li>Blockchain <i>(2022)</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        Technical Skills
+                    </div>
+
+                    <div class="card-body">
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Laravel</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">React.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        Contact Information
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            <b>Email:</b>
+                            <a href="mailto:Doina Bocsaneanu@gmail.com">
+                                Doina Bocsaneanu@gmail.com
+                            </a>
+                        </p>
+
+                        <p><b>Connect with me on social media</b></p>
+
+                        <div class="social-links">
+
+                            <a href="https://www.facebook.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="Facebook">
+                                <img src="https://www.cdnlogo.com/logos/f/74/facebook.svg"
+                                     alt="Facebook">
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/ariffinmzin/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="LinkedIn">
+                                <img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg"
+                                     alt="LinkedIn">
+                            </a>
+
+                            <a href="https://twitter.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="Twitter">
+                                <img src="https://www.cdnlogo.com/logos/t/45/twitter.svg"
+                                     alt="Twitter">
+                            </a>
+
+                            <a href="https://instagram.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="Instagram">
+                                <img src="https://www.cdnlogo.com/logos/i/92/instagram.svg"
+                                     alt="Instagram">
+                            </a>
+
+                            <a href="https://tiktok.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="TikTok">
+                                <img src="https://www.cdnlogo.com/logos/t/60/tiktok.svg"
+                                     alt="TikTok">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Doina Bocsaneanu.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Automatically display the current year
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
